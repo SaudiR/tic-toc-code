@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Two Sum",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "description": "Find two numbers that add up to a target value.",
+        "hint": "Use a dictionary to store previously seen numbers.",
+        "points": 100,
+        "time_limit": 60,
+        "leetcode_number": 1
+    },
+
+    {
+        "title": "Best Time to Buy and Sell Stock",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "description": "Find two numbers that add up to a target value.",
+        "hint": "Use a dictionary to store previously seen numbers.",
+        "points": 100,
+        "time_limit": 60,
+        "leetcode_number": 1
+    },
+
+    {
+        "title": "Contains Duplicate",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "description": "Find two numbers that add up to a target value.",
+        "hint": "Use a dictionary to store previously seen numbers.",
+        "points": 100,
+        "time_limit": 60,
+        "leetcode_number": 1
+    }
+]

@@ -1,5 +1,23 @@
-from game.timer import Timer
+"""
+from game.game_engine import GameEngine
 
-timer = Timer(1)
+game = GameEngine()
 
-timer.countdown()
+game.start()
+
+"""
+
+from game.challenge_loader import ChallengeLoader
+
+loader = ChallengeLoader()
+
+challenges = loader.load_challenges("data/arrays.json")
+
+challenge = challenges[0]
+
+for challenge in challenges:
+
+    print(challenge.title)
+
+
+
