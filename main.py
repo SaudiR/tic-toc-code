@@ -1,5 +1,5 @@
 from game.timer import Timer
 
-timer = Timer(3)
+timer = Timer(1)
 
-timer.display_time()
+timer.countdown()
