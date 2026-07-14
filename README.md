@@ -1,25 +1,29 @@
 # ⏰ Tic-Toc Code
 
-A Python-based coding game that teaches Data Structures and Algorithms through timed challenges.
+Beat the Clock. Master Data Structures & Algorithms.
 
-## Goal
+## About
 
-Solve coding problems before time runs out.
+Tic-Toc Code is a Python game that helps users practice Data Structures and Algorithms by solving timed coding challenges. Players improve their problem-solving skills while racing against the clock, making interview preparation more engaging and interactive.
 
-## Features
+## Features (Planned)
 
-- Timed coding challenges
-- DSA learning progression
-- Scoring system
-- Practice mode
-- Leaderboards
+- ⏰ Countdown timer
+- 📚 DSA learning paths
+- 🧠 Coding challenges
+- 🏆 Leaderboards
+- 💾 Save progress
+- 🎯 Difficulty levels
+- 📈 Performance statistics
 
-## Technologies
+## Tech Stack
 
 - Python
-- Object-Oriented Programming
-- Data Structures
-- Algorithms
+- Git
+- GitHub
+- JSON
+- Pygame (planned)
+- FastAPI (planned)
 
 ## Author
 
