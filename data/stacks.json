@@ -1,0 +1,75 @@
+[
+  {
+    "title": "Valid Parentheses",
+    "type": "coding",
+    "topic": "Stacks",
+    "difficulty": "Easy",
+    "description": "Given a string containing brackets '()', '{}', and '[]', determine if the input string is valid.\n\nA valid string must have matching opening and closing brackets in the correct order.\n\nExample:\nInput: \"({[]})\"\nOutput: true",
+    "hint": "Use a stack to store opening brackets and remove them when matching closing brackets appear.",
+    "points": 150,
+    "time_limit": 120,
+    "leetcode_number": 20
+  },
+  {
+    "title": "Find the Bug",
+    "type": "debug",
+    "topic": "Stacks",
+    "difficulty": "Easy",
+    "description": "What is wrong with this code?\n\nstack = []\nstack.pop()\nprint(stack)",
+    "hint": "Think about what happens when removing an item from an empty stack.",
+    "points": 150,
+    "time_limit": 60,
+    "leetcode_number": 0,
+    "options": [
+      "Nothing is wrong",
+      "The stack is empty and causes an error",
+      "pop() adds an item to the stack",
+      "The variable name is invalid"
+    ],
+    "answer": 2
+  },
+  {
+    "title": "Evaluate Reverse Polish Notation",
+    "type": "coding",
+    "topic": "Stacks",
+    "difficulty": "Medium",
+    "description": "Evaluate the value of an arithmetic expression in Reverse Polish Notation.\n\nExample:\nInput: [\"2\",\"1\",\"+\",\"3\",\"*\"]\nOutput: 9",
+    "hint": "Use a stack to store numbers and perform operations when operators appear.",
+    "points": 250,
+    "time_limit": 240,
+    "leetcode_number": 150
+  },
+  {
+    "title": "Daily Temperatures",
+    "type": "coding",
+    "topic": "Stacks",
+    "difficulty": "Medium",
+    "description": "Given an array of daily temperatures, return an array where each element represents how many days you must wait for a warmer temperature.\n\nExample:\nInput: [73,74,75,71,69,72,76,73]\nOutput: [1,1,4,2,1,1,0,0]",
+    "hint": "Use a monotonic decreasing stack to track temperatures waiting for a warmer day.",
+    "points": 300,
+    "time_limit": 240,
+    "leetcode_number": 739
+  },
+  {
+    "title": "Largest Rectangle in Histogram",
+    "type": "coding",
+    "topic": "Stacks",
+    "difficulty": "Hard",
+    "description": "Given an array representing histogram heights, find the largest rectangle area.\n\nExample:\nInput: [2,1,5,6,2,3]\nOutput: 10",
+    "hint": "Use a monotonic stack to track increasing heights.",
+    "points": 500,
+    "time_limit": 300,
+    "leetcode_number": 84
+  },
+  {
+    "title": "Basic Calculator",
+    "type": "coding",
+    "topic": "Stacks",
+    "difficulty": "Hard",
+    "description": "Implement a calculator that evaluates expressions containing +, -, spaces, and parentheses.",
+    "hint": "Use stacks to store previous results and signs.",
+    "points": 450,
+    "time_limit": 300,
+    "leetcode_number": 224
+  }
+]

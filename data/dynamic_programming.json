@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Climbing Stairs",
+    "type": "coding",
+    "topic": "Dynamic Programming",
+    "difficulty": "Easy",
+    "description": "You are climbing a staircase with n steps. Each time you can climb either 1 step or 2 steps. Return the number of distinct ways you can reach the top.\n\nExample:\nInput:\nn = 5\n\nOutput:\n8\n\nExplanation:\nThere are 8 different ways to climb to the top.",
+    "hint": "The number of ways to reach a step is the sum of the previous two steps.",
+    "points": 150,
+    "time_limit": 120,
+    "leetcode_number": 70
+  },
+  {
+    "title": "House Robber",
+    "type": "coding",
+    "topic": "Dynamic Programming",
+    "difficulty": "Medium",
+    "description": "You are a professional robber planning to rob houses along a street. Each house has a certain amount of money, but you cannot rob two adjacent houses.\n\nReturn the maximum amount of money you can steal without alerting the police.\n\nExample:\nInput:\n[2,7,9,3,1]\n\nOutput:\n12\n\nExplanation:\nRob house 1, house 3, and house 5 for a total of 12.",
+    "hint": "At each house, decide whether to rob it or skip it. Store the best result from previous houses.",
+    "points": 250,
+    "time_limit": 240,
+    "leetcode_number": 198
+  }, 
+  {
+    "title": "Regular Expression Matching",
+    "type": "coding",
+    "topic": "Dynamic Programming",
+    "difficulty": "Hard",
+    "description": "Given an input string s and a pattern p, implement regular expression matching with support for '.' and '*'.\n\nExample:\nInput:\ns = \"aab\"\np = \"c*a*b\"\n\nOutput:\ntrue",
+    "hint": "Create a DP table where each state represents whether a portion of the string matches a portion of the pattern.",
+    "points": 500,
+    "time_limit": 300,
+    "leetcode_number": 10
+  },
+  {
+    "title": "Edit Distance",
+    "type": "coding",
+    "topic": "Dynamic Programming",
+    "difficulty": "Hard",
+    "description": "Given two strings word1 and word2, return the minimum number of operations required to convert word1 into word2.\n\nAllowed operations:\n- Insert a character\n- Delete a character\n- Replace a character\n\nExample:\nInput:\nword1 = \"horse\"\nword2 = \"ros\"\n\nOutput:\n3",
+    "hint": "Use a 2D DP table where each cell represents the minimum operations needed for substrings.",
+    "points": 500,
+    "time_limit": 300,
+    "leetcode_number": 72
+  }
+]

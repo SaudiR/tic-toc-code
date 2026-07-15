@@ -18,6 +18,7 @@ class GameSession:
         print(f"Topic: {self.challenge.topic}")
         print(f"Difficulty: {self.challenge.difficulty}")
         print(f"⏰ Time Limit: {self.challenge.time_limit} seconds")
+        print(f"{self.get_type_icon()} Type: {self.challenge.challenge_type}")
 
         print()
         print(self.challenge.description)
@@ -56,7 +57,7 @@ class GameSession:
 
             if elasped_time <= self.challenge.time_limit / 2:
 
-                print("\n⚡ Spped Bonus! +50 points")
+                print("\n⚡ Speed Bonus! +50 points")
 
                 points += 50 
 
@@ -93,6 +94,18 @@ class GameSession:
         self.check_answer(answer, elasped_time)
 
         print(f"\n You answered in {elasped_time:.2f} seconds.")
+
+    def get_type_icon(self): 
+
+        icons = { 
+            "multiple_choice": "🧠",
+            "debug": "🐛",
+            "predict": "📝",
+            "fill_blank": "✍️", 
+            "coding": "⌨️"
+        }
+
+        return icons.get(self.challenge.challenge_type, "?")
 
 
     

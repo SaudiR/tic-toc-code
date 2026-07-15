@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Maximum Depth of Binary Tree",
+    "type": "coding",
+    "topic": "Trees",
+    "difficulty": "Easy",
+    "description": "Given the root of a binary tree, return its maximum depth.\n\nThe maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.",
+    "hint": "Use recursion or breadth-first search to count levels in the tree.",
+    "points": 150,
+    "time_limit": 120,
+    "leetcode_number": 104
+  },
+  {
+    "title": "Invert Binary Tree",
+    "type": "coding",
+    "topic": "Trees",
+    "difficulty": "Easy",
+    "description": "Given the root of a binary tree, invert the tree by swapping every left child with its right child.\n\nExample:\nInput:\n    4\n   / \\\n  2   7\n\nOutput:\n    4\n   / \\\n  7   2",
+    "hint": "Visit each node and swap its left and right children.",
+    "points": 150,
+    "time_limit": 120,
+    "leetcode_number": 226
+  }, 
+   {
+    "title": "Validate Binary Search Tree",
+    "type": "coding",
+    "topic": "Trees",
+    "difficulty": "Medium",
+    "description": "Given the root of a binary tree, determine if it is a valid binary search tree.\n\nExample:\nInput:\n[2,1,3]\nOutput:\ntrue",
+    "hint": "Each node must fall within a valid range of values.",
+    "points": 300,
+    "time_limit": 240,
+    "leetcode_number": 98
+  },
+  {
+    "title": "Lowest Common Ancestor of Binary Tree",
+    "type": "coding",
+    "topic": "Trees",
+    "difficulty": "Medium",
+    "description": "Given a binary tree and two nodes, find their lowest common ancestor.\n\nExample:\nInput:\nroot=[3,5,1,6,2,0,8], p=5, q=1\nOutput:\n3",
+    "hint": "Use recursion to search both left and right subtrees.",
+    "points": 300,
+    "time_limit": 240,
+    "leetcode_number": 236
+  },
+  {
+    "title": "Serialize and Deserialize Binary Tree",
+    "type": "coding",
+    "topic": "Trees",
+    "difficulty": "Hard",
+    "description": "Design an algorithm to serialize a binary tree into a string and deserialize the string back into the original tree.\n\nExample:\nInput:\n[1,2,3,null,null,4,5]\n\nOutput:\nThe same binary tree structure",
+    "hint": "Use DFS traversal and store node values with markers for null nodes.",
+    "points": 500,
+    "time_limit": 300,
+    "leetcode_number": 297
+  },
+  {
+    "title": "Binary Tree Maximum Path Sum",
+    "type": "coding",
+    "topic": "Trees",
+    "difficulty": "Hard",
+    "description": "Given a binary tree, find the maximum path sum. A path can start and end at any node in the tree.\n\nExample:\nInput:\n[1,2,3]\n\nOutput:\n6",
+    "hint": "Use recursion to calculate the maximum contribution from each node.",
+    "points": 500,
+    "time_limit": 300,
+    "leetcode_number": 124
+  }
+]

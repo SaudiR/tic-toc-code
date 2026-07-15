@@ -115,12 +115,30 @@ class GameEngine:
 
     def play_game(self):
 
-        challenge = self.load_random_challenge()
+        topic = self.choose_topic()
+
+        if topic is None:
+
+            print("\n❌ Invalid selection.")
+
+            return
+
+        topic_name, filename = topic
+
+        loader = ChallengeLoader()
+
+        challenges = loader.load_challenges(filename)
+
+        challenge = random.choice(challenges)
 
         session = GameSession(
+
             self.player,
+
             self.timer,
+
             challenge
+
         )
 
         session.play()
@@ -182,5 +200,32 @@ class GameEngine:
         print()
 
         input("Press Enter to return...")
+
+    def choose_topic(self):
+
+        topics = {
+
+            "1": ("Arrays", "data/arrays.json"),
+            "2": ("Strings", "data/strings.json"),
+            "3": ("Hash Maps", "data/hash_maps.json"),
+            "4": ("Stacks", "data/stacks.json"),
+            "5": ("Queues", "data/queues.json"),
+            "6": ("Linked Lists", "data/linked_lists.json"),
+            "7": ("Trees", "data/trees.json"),
+            "8": ("Graphs", "data/graphs.json"),
+            "9": ("Heaps", "data/heaps.json"),
+            "10": ("Dynamic Programming", "data/dynamic_programming.json")
+
+        }
+
+        print("\n📚 Choose a Topic\n")
+
+        for key, value in topics.items():
+
+            print(f"{key}. {value[0]}")
+
+        choice = input("\nSelection: ")
+
+        return topics.get(choice)
 
     

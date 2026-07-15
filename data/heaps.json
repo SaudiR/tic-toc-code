@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Kth Largest Element in an Array",
+    "type": "coding",
+    "topic": "Heaps",
+    "difficulty": "Medium",
+    "description": "Given an integer array nums and an integer k, return the kth largest element in the array.\n\nExample:\nInput:\nnums = [3,2,1,5,6,4]\nk = 2\n\nOutput:\n5",
+    "hint": "A min heap can keep track of the k largest elements while iterating through the array.",
+    "points": 250,
+    "time_limit": 240,
+    "leetcode_number": 215
+  },
+  {
+    "title": "Last Stone Weight",
+    "type": "coding",
+    "topic": "Heaps",
+    "difficulty": "Easy",
+    "description": "You are given an array of stones where stones[i] represents the weight of a stone.\n\nRepeatedly smash the two heaviest stones together. If they have different weights, the remaining stone has the difference between their weights.\n\nReturn the weight of the last remaining stone, or 0 if none remain.\n\nExample:\nInput:\n[2,7,4,1,8,1]\n\nOutput:\n1",
+    "hint": "Use a max heap to quickly access the two heaviest stones.",
+    "points": 150,
+    "time_limit": 180,
+    "leetcode_number": 1046
+  }, 
+  {
+    "title": "Find Median from Data Stream",
+    "type": "coding",
+    "topic": "Heaps",
+    "difficulty": "Hard",
+    "description": "Design a data structure that supports adding numbers and finding the median of all numbers added so far.\n\nExample:\naddNum(1)\naddNum(2)\nfindMedian()\nOutput: 1.5",
+    "hint": "Use two heaps: a max heap for the smaller half and a min heap for the larger half.",
+    "points": 500,
+    "time_limit": 300,
+    "leetcode_number": 295
+  },
+  {
+    "title": "IPO Maximum Capital",
+    "type": "coding",
+    "topic": "Heaps",
+    "difficulty": "Hard",
+    "description": "Given projects with profits and required capital, maximize your final capital after completing k projects.\n\nExample:\nInput:\nk=2\nprofits=[1,2,3]\ncapital=[0,1,1]\n\nOutput:\n4",
+    "hint": "Use a heap to always choose the most profitable available project.",
+    "points": 450,
+    "time_limit": 300,
+    "leetcode_number": 502
+  }
+]

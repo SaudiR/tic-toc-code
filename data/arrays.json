@@ -52,5 +52,89 @@
             "Use binary search"
         ],
         "answer": 2
-    }
+    },
+    {
+        "title": "Find the Bug",
+        "type": "debug",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "description": "What is wrong with this code?\n\nnumbers = [1,2,3]\nprint(numbers[3])",
+        "hint": "Remember that list indexes start at 0.",
+        "points": 150,
+        "time_limit": 60,
+        "leetcode_number": 0,
+         "options": [
+            "Nothing is wrong",
+            "Index out of range",
+            "Wrong variable name",
+            "Missing parentheses"
+            ],
+            "answer": 2
+    },
+  {
+    "title": "Find the Largest Number",
+    "type": "coding",
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "description": "Given an array of integers, return the largest number in the array.\n\nExample:\nInput: [3,9,2,15,7]\nOutput: 15",
+    "hint": "Create a variable to store the largest value and compare each number while looping.",
+    "points": 100,
+    "time_limit": 120,
+    "leetcode_number": 0
+  },
+  {
+    "title": "Move Zeroes",
+    "type": "coding",
+    "topic": "Arrays",
+    "difficulty": "Easy",
+    "description": "Given an integer array, move all 0's to the end of it while maintaining the relative order of the non-zero elements.\n\nExample:\nInput: [0,1,0,3,12]\nOutput: [1,3,12,0,0]",
+    "hint": "Use two pointers. One pointer tracks the position where the next non-zero element should be placed.",
+    "points": 150,
+    "time_limit": 180,
+    "leetcode_number": 283
+  },
+  {
+    "title": "Product of Array Except Self",
+    "type": "coding",
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "description": "Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].\n\nYou must solve it without using division and in O(n) time.\n\nExample:\nInput: [1,2,3,4]\nOutput: [24,12,8,6]",
+    "hint": "Use prefix and suffix products to avoid division.",
+    "points": 250,
+    "time_limit": 240,
+    "leetcode_number": 238
+  },
+  {
+    "title": "3Sum",
+    "type": "coding",
+    "topic": "Arrays",
+    "difficulty": "Medium",
+    "description": "Given an integer array nums, return all unique triplets [nums[i], nums[j], nums[k]] where the three numbers add up to zero.\n\nExample:\nInput: [-1,0,1,2,-1,-4]\nOutput: [[-1,-1,2],[-1,0,1]]",
+    "hint": "Sort the array first and use the two pointer technique.",
+    "points": 300,
+    "time_limit": 300,
+    "leetcode_number": 15
+  },
+  {
+    "title": "Trapping Rain Water",
+    "type": "coding",
+    "topic": "Arrays",
+    "difficulty": "Hard",
+    "description": "Given an elevation map where each bar represents height, calculate how much water can be trapped after raining.\n\nExample:\nInput: [0,1,0,2,1,0,1,3,2,1,2,1]\nOutput: 6",
+    "hint": "Use two pointers or prefix maximum arrays to track water boundaries.",
+    "points": 400,
+    "time_limit": 300,
+    "leetcode_number": 42
+  },
+  {
+    "title": "Maximum Subarray Sum with Constraints",
+    "type": "coding",
+    "topic": "Arrays",
+    "difficulty": "Hard",
+    "description": "Find the maximum sum of a contiguous subarray when additional constraints limit valid selections.",
+    "hint": "Consider using Kadane's Algorithm combined with additional tracking.",
+    "points": 450,
+    "time_limit": 300,
+    "leetcode_number": 0
+  }
 ]

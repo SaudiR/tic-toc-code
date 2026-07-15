@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Implement Queue Using Two Stacks",
+    "type": "coding",
+    "topic": "Queues",
+    "difficulty": "Easy",
+    "description": "Implement a first-in-first-out (FIFO) queue using only two stacks.\n\nThe queue should support:\n- enqueue\n- dequeue\n- peek\n- empty",
+    "hint": "Use one stack for adding elements and another stack for removing elements.",
+    "points": 200,
+    "time_limit": 180,
+    "leetcode_number": 232
+  },
+  {
+    "title": "Recent Calls",
+    "type": "coding",
+    "topic": "Queues",
+    "difficulty": "Easy",
+    "description": "Create a data structure that counts the number of recent requests received within the last 3000 milliseconds.\n\nExample:\nInput:\nping(1)\nping(100)\nping(3001)\n\nOutput:\n1,2,3",
+    "hint": "A queue works well because older timestamps can be removed from the front.",
+    "points": 150,
+    "time_limit": 120,
+    "leetcode_number": 933
+  },
+  {
+    "title": "Sliding Window Maximum",
+    "type": "coding",
+    "topic": "Queues",
+    "difficulty": "Hard",
+    "description": "Given an array and window size k, return the maximum value in each sliding window.\n\nExample:\nInput:\nnums=[1,3,-1,-3,5,3,6,7], k=3\nOutput:[3,3,5,5,6,7]",
+    "hint": "Use a monotonic deque to track maximum values.",
+    "points": 500,
+    "time_limit": 300,
+    "leetcode_number": 239
+  },
+  {
+    "title": "Rotting Oranges",
+    "type": "coding",
+    "topic": "Queues",
+    "difficulty": "Medium",
+    "description": "Given a grid where 0 represents empty cells, 1 represents fresh oranges, and 2 represents rotten oranges, determine the minimum number of minutes until all oranges become rotten.\n\nExample:\nInput:\n[[2,1,1],[1,1,0],[0,1,1]]\nOutput:\n4",
+    "hint": "Use multi-source BFS starting from all rotten oranges.",
+    "points": 300,
+    "time_limit": 240,
+    "leetcode_number": 994
+  },
+  {
+    "title": "Design Circular Queue",
+    "type": "coding",
+    "topic": "Queues",
+    "difficulty": "Medium",
+    "description": "Design a circular queue data structure that supports enqueue, dequeue, front, rear, and checking if the queue is empty or full.",
+    "hint": "Use modular arithmetic to wrap indexes around the queue.",
+    "points": 300,
+    "time_limit": 300,
+    "leetcode_number": 622
+  },
+  {
+    "title": "Shortest Path in Binary Matrix",
+    "type": "coding",
+    "topic": "Queues",
+    "difficulty": "Hard",
+    "description": "Find the shortest path from the top-left corner to the bottom-right corner of a binary matrix.",
+    "hint": "Use Breadth First Search because it explores shortest paths first.",
+    "points": 400,
+    "time_limit": 300,
+    "leetcode_number": 1091
+  }
+]

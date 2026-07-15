@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Reverse a String",
+    "type": "coding",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "description": "Write a function that reverses a string and returns the reversed result.\n\nExample:\nInput: \"python\"\nOutput: \"nohtyp\"",
+    "hint": "You can use slicing, a loop, or two pointers to reverse the characters.",
+    "points": 100,
+    "time_limit": 120,
+    "leetcode_number": 344
+  },
+  {
+    "title": "Valid Palindrome",
+    "type": "coding",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "description": "Given a string, determine if it is a palindrome after converting all uppercase letters to lowercase and removing non-alphanumeric characters.\n\nExample:\nInput: \"A man, a plan, a canal: Panama\"\nOutput: true",
+    "hint": "Normalize the string first, then compare characters from both ends.",
+    "points": 150,
+    "time_limit": 180,
+    "leetcode_number": 125
+  },
+  {
+    "title": "Longest Substring Without Repeating Characters",
+    "type": "coding",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "description": "Given a string s, find the length of the longest substring without repeating characters.\n\nExample:\nInput: \"abcabcbb\"\nOutput: 3",
+    "hint": "Use a sliding window with a hash map to track character positions.",
+    "points": 300,
+    "time_limit": 240,
+    "leetcode_number": 3
+  },
+  {
+    "title": "Longest Palindromic Substring",
+    "type": "coding",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "description": "Given a string s, return the longest palindromic substring.\n\nExample:\nInput: \"babad\"\nOutput: \"bab\"",
+    "hint": "Expand around the center of each possible palindrome.",
+    "points": 300,
+    "time_limit": 240,
+    "leetcode_number": 5
+  },
+  {
+    "title": "Longest Valid Parentheses",
+    "type": "coding",
+    "topic": "Strings",
+    "difficulty": "Hard",
+    "description": "Given a string containing '(' and ')', find the length of the longest valid parentheses substring.\n\nExample:\nInput: \"(()\"\nOutput: 2",
+    "hint": "Use a stack or dynamic programming to track valid ranges.",
+    "points": 400,
+    "time_limit": 300,
+    "leetcode_number": 32
+  },
+  {
+    "title": "Regular Expression Matching",
+    "type": "coding",
+    "topic": "Strings",
+    "difficulty": "Hard",
+    "description": "Implement pattern matching with support for '.' and '*'.\n\nExample:\nInput:\ns = \"aab\"\np = \"c*a*b\"\nOutput: true",
+    "hint": "Use dynamic programming to compare string and pattern states.",
+    "points": 500,
+    "time_limit": 300,
+    "leetcode_number": 10
+  }
+]
