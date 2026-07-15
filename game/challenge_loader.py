@@ -1,4 +1,5 @@
 import json
+
 from game.challenge import Challenge 
 
 class ChallengeLoader: 
@@ -21,8 +22,10 @@ class ChallengeLoader:
                 item["hint"],
                 item["points"],
                 item["time_limit"],
-                item["leetcode_number"]
-            )
+                item["leetcode_number"],
+                item["options"],
+                item["answer"]
+)
 
             challenges.append(challenge)
 

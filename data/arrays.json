@@ -3,32 +3,51 @@
         "title": "Two Sum",
         "topic": "Arrays",
         "difficulty": "Easy",
-        "description": "Find two numbers that add up to a target value.",
-        "hint": "Use a dictionary to store previously seen numbers.",
+        "description": "Which data structure gives an efficient solution?",
+        "hint": "Think about fast lookups.",
         "points": 100,
         "time_limit": 60,
-        "leetcode_number": 1
+        "leetcode_number": 1,
+        "options": [
+            "List",
+            "Dictionary",
+            "Tuple",
+            "Set"
+        ],
+        "answer": 2
     },
-
-    {
-        "title": "Best Time to Buy and Sell Stock",
-        "topic": "Arrays",
-        "difficulty": "Easy",
-        "description": "Find two numbers that add up to a target value.",
-        "hint": "Use a dictionary to store previously seen numbers.",
-        "points": 100,
-        "time_limit": 60,
-        "leetcode_number": 1
-    },
-
     {
         "title": "Contains Duplicate",
         "topic": "Arrays",
         "difficulty": "Easy",
-        "description": "Find two numbers that add up to a target value.",
-        "hint": "Use a dictionary to store previously seen numbers.",
+        "description": "Which data structure is commonly used to quickly detect duplicates?",
+        "hint": "Think about unique values.",
         "points": 100,
         "time_limit": 60,
-        "leetcode_number": 1
+        "leetcode_number": 217,
+        "options": [
+            "Queue",
+            "Stack",
+            "Set",
+            "Tuple"
+        ],
+        "answer": 3
+    },
+    {
+        "title": "Best Time to Buy and Sell Stock",
+        "topic": "Arrays",
+        "difficulty": "Easy",
+        "description": "What strategy gives the optimal profit in one pass?",
+        "hint": "Track the lowest price seen so far.",
+        "points": 150,
+        "time_limit": 90,
+        "leetcode_number": 121,
+        "options": [
+            "Sort the prices",
+            "Track the minimum price",
+            "Use recursion",
+            "Use binary search"
+        ],
+        "answer": 2
     }
 ]

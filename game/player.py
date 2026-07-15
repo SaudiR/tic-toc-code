@@ -11,6 +11,6 @@ class Player:
 
         self.score += points 
 
-    def level_up(self, level):
+    def level_up(self):
 
         self.level += 1
