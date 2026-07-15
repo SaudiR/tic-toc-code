@@ -3,6 +3,7 @@ class Challenge:
     def __init__(
         self,
         title,
+        challenge_type,
         topic,
         difficulty,
         description,
@@ -15,6 +16,7 @@ class Challenge:
     ):
 
         self.title = title
+        self.challenge_type = challenge_type
         self.topic = topic
         self.difficulty = difficulty
         self.description = description

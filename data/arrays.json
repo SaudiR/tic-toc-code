@@ -1,6 +1,7 @@
 [
     {
         "title": "Two Sum",
+        "type": "multiple_choice",
         "topic": "Arrays",
         "difficulty": "Easy",
         "description": "Which data structure gives an efficient solution?",
@@ -18,6 +19,7 @@
     },
     {
         "title": "Contains Duplicate",
+        "type": "multiple_choice",
         "topic": "Arrays",
         "difficulty": "Easy",
         "description": "Which data structure is commonly used to quickly detect duplicates?",
@@ -35,6 +37,7 @@
     },
     {
         "title": "Best Time to Buy and Sell Stock",
+        "type": "multiple_choice",
         "topic": "Arrays",
         "difficulty": "Easy",
         "description": "What strategy gives the optimal profit in one pass?",

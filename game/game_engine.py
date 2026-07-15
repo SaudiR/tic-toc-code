@@ -2,7 +2,8 @@ import random
 
 from game.player import Player
 from game.timer import Timer
-from game.challenge_loader import ChallengeLoader
+from game.challenge_loader import ChallengeLoader 
+from game.game_session import GameSession
 
 
 class GameEngine:
@@ -28,23 +29,16 @@ class GameEngine:
             choice = self.show_menu()
 
             if choice == "1":
-
                 self.play_game()
 
             elif choice == "2":
-
                 self.show_about()
 
             elif choice == "3":
-
                 self.show_statistics()
 
             elif choice == "4":
-
-                print()
-
-                print("👋 Thanks for playing Tic-Toc Code!")
-
+                print("\n👋 Thanks for playing Tic-Toc Code!")
                 break
 
             elif choice == "5":
@@ -52,10 +46,7 @@ class GameEngine:
                 self.practice_by_topic()
 
             else:
-
-                print()
-
-                print("❌ Invalid choice.")
+                print("\n❌ Invalid choice.")
 
     def show_welcome(self):
 
@@ -82,47 +73,15 @@ class GameEngine:
 
     def display_challenge(self, challenge):
 
-        print(f"📖 Challenge #{challenge.leetcode_number}")
-
-        print(f"Title: {challenge.title}")
-
-        print(f"Topic: {challenge.topic}")
-
-        print(f"Difficulty: {challenge.difficulty}")
-
         print()
-
-        print(challenge.description)
-
-        print()
-
-        for number, option in enumerate(challenge.options, start=1):
-
-            print(f"{number}. {option}")
 
     def get_player_answer(self):
 
-        answer = int(input("\nYour answer: "))
-
-        return answer 
+        pass
     
     def check_answer(self, challenge, answer):
 
-        if answer == challenge.answer:
-
-            print()
-
-            print("✅ Correct!")
-
-            self.player.add_score(challenge.points)
-
-        else:
-
-            print()
-
-            print("❌ Incorrect")
-
-            print(challenge.hint)
+        pass
 
     def display_score(self):
 
@@ -158,11 +117,13 @@ class GameEngine:
 
         challenge = self.load_random_challenge()
 
-        self.display_challenge(challenge)
+        session = GameSession(
+            self.player,
+            self.timer,
+            challenge
+        )
 
-        answer = self.get_player_answer()
-
-        self.check_answer(challenge, answer)
+        session.play()
 
         self.display_score()
 

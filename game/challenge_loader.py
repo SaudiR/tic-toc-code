@@ -16,6 +16,7 @@ class ChallengeLoader:
 
             challenge = Challenge(
                 item["title"],
+                item["type"],
                 item["topic"],
                 item["difficulty"],
                 item["description"],
